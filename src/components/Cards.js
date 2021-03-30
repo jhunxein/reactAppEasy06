@@ -6,7 +6,6 @@ import useFetch from './../helpers/useFetch';
 
 function Cards() {
 	const { data } = useFetch(cardData);
-	console.log(data);
 
 	return (
 		<div className="card-wrapper">

@@ -1,6 +1,10 @@
 .container {
 	padding: 90px 32px 78px;
 
+	@media only screen and (min-width: $desktop) {
+		padding-top: 60px;
+	}
+
 	p {
 		line-height: 25px;
 		font-weight: 400;
