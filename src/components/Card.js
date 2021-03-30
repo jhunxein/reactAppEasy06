@@ -18,7 +18,7 @@ export class Card extends React.Component {
 				className="card"
 				style={{ borderTop: `3px solid ${this.borderTopColor}` }}
 			>
-				<h1>{this.title}</h1>
+				<h2>{this.title}</h2>
 				<p>{this.desc}</p>
 				<div>
 					<img src={this.iconSrc} alt="..." className="icon" />
