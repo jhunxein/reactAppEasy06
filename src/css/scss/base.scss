@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+@import './partials/variables';
+@import './partials/layout';
+@import './partials/hero';
+@import './partials/card';
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: $font-family;
+	font-size: $font-size;
+}
+
+body {
+	background-color: $clr-neutral-3;
+	// background-color: red;
+}

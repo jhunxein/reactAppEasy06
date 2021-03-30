@@ -1,0 +1,32 @@
+.hero {
+	text-align: center;
+	margin-bottom: 78px;
+	transition: $transition;
+
+	@media only screen and (min-width: $desktop) {
+		margin-bottom: 66px;
+	}
+
+	h1 {
+		font-size: 24px;
+		font-weight: 300;
+		color: $clr-neutral-2;
+		line-height: 35px;
+		transition: $transition;
+
+		@media only screen and (min-width: $desktop) {
+			font-size: 37px;
+			line-height: 45px;
+		}
+
+		span {
+			color: $clr-neutral-1;
+			font-weight: 600;
+			display: block;
+		}
+	}
+
+	p {
+		color: $clr-neutral-2;
+	}
+}
