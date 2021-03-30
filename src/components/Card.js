@@ -15,7 +15,6 @@ export class Card extends React.Component {
 	render() {
 		return (
 			<section
-				key={this.id}
 				className="card"
 				style={{ borderTop: `3px solid ${this.borderTopColor}` }}
 			>

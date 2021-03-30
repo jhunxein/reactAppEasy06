@@ -10,8 +10,8 @@ function Cards() {
 
 	return (
 		<div className="card-wrapper">
-			{data.map((info) => {
-				return <Card {...info} />;
+			{data.map((info, index) => {
+				return <Card key={index} {...info} />;
 			})}
 		</div>
 	);
